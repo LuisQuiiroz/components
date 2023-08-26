@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --default-1-color: #E0E0E0;
+  --default-2-color: #AEAEAE;
+  --primary-1-color: #2962FF;
+  --primary-2-color: #0039CB;
+  --secondary-1-color: #455A64;
+  --secondary-2-color: #1C313A;
+  --danger-1-color: #D32F2F;
+  --danger-2-color: #9A0007;
+  --black-1-color: #3F3F3F;
+  --gray-1-color: #9E9E9E;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,89 @@
+.button {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Estilos de botones */
+.disabledBg {
+  background-color: var(--default-1-color);
+  color: var(--gray-1-color);
+  cursor: not-allowed;
+}
+
+.disabledText{
+  color: var(--gray-1-color);
+  cursor: not-allowed;
+}
+
+.default {
+  background-color: var(--default-1-color);
+  color: var(--black-1-color);
+}
+
+.default:hover, 
+.default:focus {
+  background-color: var(--default-2-color);
+}
+
+.primary {
+  background-color: var(--primary-1-color);
+  color: #fff;
+}
+
+.primary:hover,
+.primary:focus {
+  background-color: var(--primary-2-color);
+}
+
+.secondary {
+  background-color: var(--secondary-1-color);
+  color: #fff;
+}
+
+.secondary:hover,
+.secondary:focus {
+  background-color: var(--secondary-2-color);
+}
+
+.danger {
+  background-color: var(--danger-1-color);
+  color: #fff;
+}
+
+.danger:hover,
+.danger:focus {
+  background-color: var(--danger-2-color);
+}
+
+/* Estilos para tamaños */
+.sm {
+  padding: 6px 12px;
+}
+
+.md {
+  padding: 8px 16px;
+}
+
+.lg {
+  padding: 11px 22px;
+}
+
+/* Estilos para variantes */
+.outline {
+  border: 1px solid;
+  background-color: white;
+  color: var(--primary-1-color);
+}
+.outline:hover,
+.outline.focus {
+  background-color: transparent;
+  opacity: 0.1;
+}
+
+.text {
+  /* Estilos para variantes de texto */
+}
