@@ -5,7 +5,7 @@ interface CodeSnippetProps {
 
 export const CodeSnippet: React.FC<CodeSnippetProps> = ({ content }) => {
   return (
-    <p className='mb-2'>
+    <p className='mb-2 text-gray-2'>
       <code>{content}</code>
     </p>
   )

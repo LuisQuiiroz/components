@@ -21,7 +21,16 @@ export default {
         'danger-1': '#D32F2F',
         'danger-2': '#9A0007',
         'black-1': '#3F3F3F',
-        'gray-1': '#9E9E9E'
+        'gray-1': '#9E9E9E',
+        'gray-2': '#333',
+        'gray-3': '#828282',
+        'gray-4': '#F2F2F2'
+      },
+      fontSize: {
+        '2xs': ['10px', '12px']
+      },
+      maxWidth: {
+        '2xs': '200px'
       }
     },
     fontFamily: {

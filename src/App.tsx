@@ -1,6 +1,7 @@
 import { Navigation } from './components/Navigation'
 import { Button } from './components/Button/Button'
 import { CodeSnippet } from './components/CodeSnippet'
+import { Input } from './components/Input/Input'
 
 function App (): JSX.Element {
   return (
@@ -132,6 +133,53 @@ function App (): JSX.Element {
                 <Button color='danger'>
                   Danger
                 </Button>
+              </div>
+            </section>
+          </article>
+          <article id='inputs'>
+            <h2 className='text-3xl pt-10'>Inputs</h2>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 my-10'>
+              <div>
+                <CodeSnippet content='<Input />' />
+                <Input />
+              </div>
+              <div>
+                <CodeSnippet content='&:hover' />
+                <Input />
+              </div>
+              <div>
+                <CodeSnippet content='&:focus' />
+                <Input />
+              </div>
+            </section>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 my-10'>
+              <div>
+                <CodeSnippet content='<Input  error/>' />
+                <Input error />
+              </div>
+              <div>
+                <CodeSnippet content='&:hover' />
+                <Input error />
+              </div>
+              <div>
+                <CodeSnippet content='&:focus' />
+                <Input error />
+              </div>
+            </section>
+            <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 my-10'>
+              <div>
+                <CodeSnippet content='<Input disabled />' />
+                <Input disabled />
+              </div>
+            </section>
+            <section className='grid grid-cols-1 md:grid-cols-2 items-center gap-8 my-10'>
+              <div>
+                <CodeSnippet content='<Input helperText="Some interesting text"/>' />
+                <Input helperText='Some interesting text' />
+              </div>
+              <div>
+                <CodeSnippet content='<Input helperText="Some interesting text" error />' />
+                <Input helperText='Some interesting text' error />
               </div>
             </section>
           </article>
